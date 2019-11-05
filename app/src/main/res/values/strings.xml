@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MadLibsCS315</string>
+    <string name="section1"> makes an assignment for his </string>
+    <string name="section2"> on </string>
+    <string name="section3"> where the students have to work in </string>
+    <string name="section4">. </string>
+    <string name="section5"> made a/an </string>
+    <string name="section6">that takes words and </string>
+    <string name="section7"> them into a </string>
+    <string name="section8">.</string>
+
+</resources>
