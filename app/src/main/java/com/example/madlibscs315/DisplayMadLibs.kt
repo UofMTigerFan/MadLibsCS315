@@ -11,14 +11,14 @@ class DisplayMadLibs : AppCompatActivity() {
         setContentView(R.layout.activity_display_mad_libs)
 
         // Get the Intent that started this activity and extract the string
-        val message = intent.getStringExtra(EXTRA_MESSAGE)
-        val message2 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message3 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message4 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message5 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message6 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message7 = intent.getStringExtra(EXTRA_MESSAGE)
-        val message8 = intent.getStringExtra(EXTRA_MESSAGE)
+        val message = intent.getStringExtra("EXTRA_MESSAGE")
+        val message2 = intent.getStringExtra("EXTRA_MESSAGE2")
+        val message3 = intent.getStringExtra("EXTRA_MESSAGE3")
+        val message4 = intent.getStringExtra("EXTRA_MESSAGE4")
+        val message5 = intent.getStringExtra("EXTRA_MESSAGE5")
+        val message6 = intent.getStringExtra("EXTRA_MESSAGE6")
+        val message7 = intent.getStringExtra("EXTRA_MESSAGE7")
+        val message8 = intent.getStringExtra("EXTRA_MESSAGE8")
 
         // Capture the layout's TextView and set the string as its text
         val textView = findViewById<TextView>(R.id.textView).apply {

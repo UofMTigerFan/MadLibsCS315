@@ -33,12 +33,17 @@ class MainActivity : AppCompatActivity() {
         val message7 = editText7.text.toString()
         val message8 = editText8.text.toString()
         val intent = Intent(this, DisplayMadLibs::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message1)
-        }
-        val intent2 = Intent(this, DisplayMadLibs::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message2)
+
+            putExtra("EXTRA_MESSAGE", message1)
+            putExtra("EXTRA_MESSAGE2", message2)
+            putExtra("EXTRA_MESSAGE3", message3)
+            putExtra("EXTRA_MESSAGE4", message4)
+            putExtra("EXTRA_MESSAGE5", message5)
+            putExtra("EXTRA_MESSAGE6", message6)
+            putExtra("EXTRA_MESSAGE7", message7)
+            putExtra("EXTRA_MESSAGE8", message8)
+
         }
         startActivity(intent)
-        startActivity(intent2)
     }
 }
